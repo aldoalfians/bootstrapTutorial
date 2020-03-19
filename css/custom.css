@@ -1,0 +1,55 @@
+.aldoboetd{
+	background-color: rgba(202, 194, 85, 0.938);
+}
+
+
+.btn-primary {
+	background: #ff9900;
+	border: 0;
+	padding: 15px 40px 15px 40px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background: #a36201;
+	border: 0;
+}
+.btn-secondary {
+	background: none;
+	border: 1px solid #bcd0e5;
+	padding: 15px 40px 15px 40px;
+	font-size: 16px;
+	font-weight: bold;
+	color:#173a56;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+	background: none;
+	border: 1px solid #b6d2f0;
+	color:#173a56;
+}
+
+.aldoboetd h1 {
+	font-family: "Poppins";
+	font-weight: 700;
+	color: #2f281e ;
+}
+
+.aldoboetd p {
+	font-family: "Poppins";
+	font-weight: 400;
+	color:#2f281e;
+}
+.navbar-nav .navlink {
+	color:#2f281e;
+}
+
+@media only screen and (max-width:768px) {
+	.btn-primary, .btn-secondary{
+		margin-top: 10px;
+		margin-left: 0 !important;
+	}
+}
